@@ -1,0 +1,27 @@
+Task for Miss Arusyak:
+
+1. Add users and check it's interaction.
+2. Prepare simulation of situation of hardware faults and it's recovery by OpenFlow.
+
+ISP?
+3.DrawIo
+https://docs.gns3.com/docs/emulators/adding-vmware-vms-to-gns3-topologies/
+
+kursayin
+4 kargani erkaki hashvich vori ashxatanqy kirakanacvi 7 segmentani indikatori ognutyamb ev achox haxhvich ev nvazox Proteus cagrov
+
+և ոչ , և կամ ոչ տրամաբանական էլեմենտների կիրառմամբ կազմակերպել գեներատոր ,որի էլեկտրական սխեման ներկայացնել պրոթեուս միջավայրում և հաշվարկել անհրաժեշտ ելքային տվյալները այսինք հաճախությունը ոնց են կազմակերպում։
+
+
+
+1.	ներածություն,
+2.	խնդրի դրվածք,
+3.	գրականության տեսություն,
+4.	ալգորիթմի կազմում և իրականցում,
+5.	եզրակացություն,
+6.	հավելվածներ,
+7.	գրականության ցանկ:
+
+
+
+https://www.fgts.ru/collection/opendaylight

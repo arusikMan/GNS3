@@ -1,0 +1,25 @@
+ip address add address=10.0.0.4/30 interface=ether1 network=10.0.0.0
+ip address add address=10.0.2.4/30 interface=ether2  network=10.0.1.0
+
+
+routing ospf instance add name=default
+interface bridge add name=loopback
+
+ip address add address=4.4.4.4/32 interface=loopback 
+routing ospf instance set 0 router-id=4.4.4.4
+
+
+routing ospf network add network=10.0.0.0/30 area=backbone
+
+routing ospf network add network=10.0.1.0/30 area=backbone
+
+routing ospf network add network=10.0.2.0/30 area=backbone
+
+routing ospf network add network=1.1.1.1/32 area=backbone
+routing ospf network add network=2.2.2.2/32 area=backbone
+routing ospf network add network=3.3.3.3/32 area=backbone
+routing ospf network add network=4.4.4.4/32 area=backbone
+
+
+
+https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/

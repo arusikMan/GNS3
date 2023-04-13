@@ -275,8 +275,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "ether6-10GE",
-                            "x": -130,
-                            "y": 9
+                            "x": -155,
+                            "y": 19
                         },
                         "node_id": "55e84705-8ea4-4ecd-95e0-8a8614e24fc7",
                         "port_number": 0
@@ -650,38 +650,6 @@
             },
             {
                 "filters": {},
-                "link_id": "88807766-52a5-4f73-a26a-22d50d4db489",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "virbr0",
-                            "x": 123,
-                            "y": 75
-                        },
-                        "node_id": "e16f9b82-fcba-4128-af57-619e79e19f5f",
-                        "port_number": 2
-                    },
-                    {
-                        "adapter_number": 7,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "ether8-10GE",
-                            "x": -129,
-                            "y": -9
-                        },
-                        "node_id": "440a6082-bb4b-429d-859d-cf8df195bff8",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "163a75cc-1445-4e07-aa00-a289b3c8c188",
                 "link_style": {},
                 "nodes": [
@@ -1031,6 +999,38 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "34803ec5-3492-43bb-803e-b5408893b771",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth1",
+                            "x": 125,
+                            "y": 73
+                        },
+                        "node_id": "e16f9b82-fcba-4128-af57-619e79e19f5f",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "ether1-1GE",
+                            "x": 2,
+                            "y": -3
+                        },
+                        "node_id": "440a6082-bb4b-429d-859d-cf8df195bff8",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -1139,7 +1139,7 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "538ce6c3-fd4c-4e18-91d6-07fde02e52dd",
                 "width": 66,
-                "x": -273,
+                "x": -274,
                 "y": -171,
                 "z": 1
             },
@@ -1523,8 +1523,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "MIKROTIK-5",
-                    "x": -9,
-                    "y": -25
+                    "x": -13,
+                    "y": -39
                 },
                 "locked": false,
                 "name": "MIKROTIK-5",
@@ -2172,7 +2172,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "d1f1226472a551898ca5dd941a1202a33d0273c4775a7db3a73c0f0994051136",
+                    "container_id": "9477722bbf00ba46e6b24d2a542de10b7e6b5b9969daa65d224f15a1df9e5b0d",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2214,7 +2214,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "7bbfc7efdbd075bc730e16775804a4119c3b7335170b0a4fd09a7475cf232a1d",
+                    "container_id": "24cf23b86cb919aed9163f32c413945cc10fb7187eb8b503c902bee38fbd72d0",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2319,44 +2319,6 @@
                 "width": 159,
                 "x": -82,
                 "y": -314,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": "",
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: MS Shell Dlg 2;font-size: 20.0;font-weight: bold;fill: #ff5500;fill-opacity: 1.0;",
-                    "text": "OpenDaylight",
-                    "x": -78,
-                    "y": 56
-                },
-                "locked": false,
-                "name": "OpenDaylight",
-                "node_id": "3524d9f0-bb86-4e40-b859-9a9c4e0eba94",
-                "node_type": "vmware",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "adapter_type": "e1000",
-                    "adapters": 1,
-                    "headless": false,
-                    "linked_clone": false,
-                    "on_close": "power_off",
-                    "usage": "",
-                    "use_any_adapter": false,
-                    "vmx_path": "C:\\Users\\arusi\\Documents\\Virtual Machines\\ODL\\ODL.vmx"
-                },
-                "symbol": ":/symbols/vmware_guest.svg",
-                "template_id": "e240641c-e784-40e9-b219-eff20fedead2",
-                "width": 65,
-                "x": -912,
-                "y": -329,
                 "z": 1
             },
             {
@@ -2490,7 +2452,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "0873176db00c070de3387cba1dea540137f03c5ab932afa3d6f2080bdc62c350",
+                    "container_id": "f62c69ba114150947a0117a59034c6122000f159935863dc9143154674ce9c7b",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -2873,8 +2835,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Cloud6",
-                    "x": 45,
-                    "y": -25
+                    "x": 33,
+                    "y": -23
                 },
                 "locked": false,
                 "name": "Cloud6",
@@ -2937,8 +2899,117 @@
                 "symbol": ":/symbols/cloud.svg",
                 "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
                 "width": 159,
-                "x": -487,
-                "y": 171,
+                "x": -465,
+                "y": 173,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5023,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "adapter_type": "e1000",
+                        "port_name": "ether1-1GE"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "adapter_type": "e1000",
+                        "port_name": "ether2-1GE"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "adapter_type": "e1000",
+                        "port_name": "ether3-1GE"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "adapter_type": "vmxnet3",
+                        "port_name": "ether4-10GE"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "adapter_type": "vmxnet3",
+                        "port_name": "ether5-10GE"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "adapter_type": "vmxnet3",
+                        "port_name": "ether6-10GE"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "adapter_type": "vmxnet3",
+                        "port_name": "ether7-10GE"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "adapter_type": "vmxnet3",
+                        "port_name": "ether8-10GE"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MIKROTIK-6",
+                    "x": -25,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "MIKROTIK-6",
+                "node_id": "70aab878-f8a6-47e6-a87a-c230d6b9580b",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 10,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "create_config_disk": false,
+                    "hda_disk_image": "chr-7.1.img",
+                    "hda_disk_image_md5sum": "41545bc7b55717fe5bb1e489ee39ca45",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "none",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:aa:b8:78:00:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/bin/qemu-system-x86_64",
+                    "ram": 512,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/router.svg",
+                "template_id": "9acc09d0-f140-4886-990e-07c844cbecdc",
+                "width": 66,
+                "x": -546,
+                "y": -233,
                 "z": 1
             }
         ]
@@ -2946,5 +3017,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.28",
-    "zoom": 87
+    "zoom": 86
 }
